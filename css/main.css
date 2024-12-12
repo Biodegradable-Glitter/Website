@@ -4,7 +4,7 @@
 }
 
 div.header {
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,14 +15,14 @@ h1.title {
     max-width: 60%;
     margin: auto;
     text-align: center;
-    padding-top: 45vh;
+    padding-top: 35vh;
     font-family: "Nosifer", sans-serif;
     font-size: 4rem;
     font-weight: bolder;
     color: white;
 }
 
-h2.subtitle {
+h2.subtitle, h4.subtitle {
     width: 100%;
     text-align: center;
     color: white;
@@ -30,6 +30,10 @@ h2.subtitle {
 
 h4 {
     text-decoration: none;
+}
+
+h4.subtitle {
+    margin-top: 25vh;
 }
 
 p.caption {
@@ -95,4 +99,8 @@ i.bi-linkedin:hover {
 a.icon {
     color: #f0f0f0;
     text-decoration: none;
+}
+
+a.btn {
+    width: 100%;
 }
