@@ -1,3 +1,8 @@
+* {
+    max-width: 100vw;
+    text-wrap: pretty;
+}
+
 div.header {
     height: 95vh;
     width: 100%;
@@ -7,21 +12,31 @@ div.header {
 }
 
 h1.title {
-    width: 100%;
+    max-width: 60%;
+    margin: auto;
     text-align: center;
     padding-top: 45vh;
     font-family: "Nosifer", sans-serif;
     font-size: 4rem;
     font-weight: bolder;
+    color: white;
 }
 
 h2.subtitle {
     width: 100%;
     text-align: center;
+    color: white;
 }
 
 h4 {
     text-decoration: none;
+}
+
+p.caption {
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    text-align: right;
 }
 
 .biodegradable-glitter {
