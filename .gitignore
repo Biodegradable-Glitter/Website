@@ -1,0 +1,5 @@
+.idea/
+css/bootstrap*
+js/bootstrap*
+*.DS_STORE
+.gitattributes
